@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+body {
+    background-color: rgb(122, 207, 122);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* seletor personalizado*/
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+
+h1 {
+    color: green
+}
+
+h2 {
+    color: green
+}
+.basico{color: brown;
+
+}
+.intermediario{
+color: blue;
+}
+.avancado{
+color: darkgoldenrod;
+}
+
+.

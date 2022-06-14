@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML </title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video src="midia/meu_video.webm.webm"  width="560" controls></video>
+   
+    <p> Vamos colocar as opções para vários navegadores.</p>
+
+    <video width="560" controls loop >
+        <source src="midia/meu_video.mv4.m4v" type="video/mp4">
+        <source src="midia/meu_video.mp4.mp4" type="video/mp4">
+        <source src="midia/meu_video.webm.webm" type="video/webm">
+        <source src="midia/meu_video.ogv.ogv" type="video/ogg">
+    </video>
+
+    
+     <p> Mais uma forma para não cosumir dados de sua hospedagem.</p>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/AN8aUvvXN0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
