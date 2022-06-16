@@ -2,4 +2,4 @@
  Curso de Html5 e Css3 CursoemVideo
 
 
- Estou aprendendo a criar repositório no gitHub.
+ Estou estudando HTML e CSS e aprendendo a criar repositório no gitHub.
